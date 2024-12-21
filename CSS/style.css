@@ -1,0 +1,414 @@
+:root{
+    --orange:#FF7404;
+    --gray:#868EA3;
+}
+/* Header Area ↓↓↓↓ */
+.color{color: var(--orange);}
+#color{color: var(--orange);}
+#foods{background: #f1f1f1;}
+.col-lg-2 .card{background: #f1f1f1;}
+#navbar-button {
+    background: var(--orange);
+    transition: .3s ease-in-out;
+}
+#navbar-button:hover{
+    background: #fff;
+}
+#navbar-button a {
+    text-decoration: none;
+    font: bold .8rem "Open Sans",Arial,sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+#navbar-button a:hover{
+    color: var(--orange);
+}
+#logo {
+    font: 800 2rem "Open Sans",Arial,sans-serif;
+    letter-spacing: .2em;
+}
+.navbar-font a {
+    padding: 0 .5rem 0 .5rem;
+    transition: .3s all ease;
+}
+/* Rotate Div ' s  Start*/
+#line{
+    position: absolute;
+    height: 150px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-6deg);
+    left: 50%;
+    bottom: 0;
+    background: #f1f1f1;
+}   
+#line2{
+    position: absolute;
+    height: 100px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 100%;
+    background: #f1f1f1;
+}   
+#line3{
+    position: absolute;
+    height: 100px;
+    width: 110%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 0;
+}
+#line4{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: -4%;
+    background: #fff;
+}
+#line5{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    transform: scale(1.1 ,1) translate(-50%,50%) rotate(-4deg);
+    left: 50%;
+    bottom: 100%;
+    background: #fff;
+}
+#line6{
+    position: absolute;
+    height: 200px;
+    width: 120%;
+    left: 50%;
+    bottom: 0;
+    background: #fff;
+    transform: scale(1.1,1) translate(-50%,50%) rotate(356deg);
+}
+/* Rotate Div ' s  End*/
+#slider-img{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 20px 0 0;
+}
+main{
+    position: relative;
+    overflow: hidden;
+}
+#title{
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+#title p{font: 300 1.25rem "Open Sans",Arial,sans-serif;}
+#title button{  
+    color: #fff;
+    background: none;
+    font: 400 .8rem "Open Sans",Arial,sans-serif;
+    letter-spacing: .2em;
+    transition: .3s ease-in-out all;
+}
+#title button:hover{
+    background: #fff;
+    color: #000;
+}
+/* Header Area End */
+#foods .card img{
+    border-radius: 5%;
+    padding: 25px 0 0 0;
+    width: 2rem;
+}
+#icon{
+    width: 80px;
+    height: 80px;
+    background: var(--orange);
+    border-radius: 50%;
+    text-align: center;
+}
+#foods .card h3{
+    font: 400 1rem "Open Sans",Arial,sans-serif;
+    color: var(--orange);
+    letter-spacing: .2rem;
+}
+#foods .card h6{
+    font: 400 .9rem "Open Sans",Arial,sans-serif;
+}
+#the-restaurant{
+    padding: 7%;
+}
+#blog hr, #the-restaurant hr,#special-menu hr,.our-menu-main hr,#testimonials hr{
+    width: 10%;
+    height: 2px;
+    background: var(--orange);
+}
+#the-restaurant h1{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+#the-restaurant p{
+    text-align: center;
+    color: var(--gray);
+    font: 400 .9em "Open Sans",Arial,sans-serif;
+}
+#restaurant img{
+    width: 100%;
+}
+/* This is Special Menu Area */
+#special-menu .parent{
+    overflow: hidden;
+}
+
+#special-menu img:hover{
+    scale: 1.1;
+    opacity: 1;
+    cursor: pointer;
+    background: none;
+}
+#special-menu .card:hover .btn-price{
+    background: none;
+    border: 1px solid #fff;
+}
+#special-menu .card{
+    transition: .3s ease-in-out all;
+}
+
+#special-menu h1{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+#blog h1{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+#special-menu img{
+    width: 100%;
+    transition: .3s ease-in-out all;
+    opacity: .8;
+}
+.content-menu{
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
+.p-tag-menu{
+    position: relative;
+    text-align: center;
+    font: 700 1.3rem "Open Sans",Arial,sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.p-tag-menu1{
+    position: relative;
+    text-align: center;
+    font: 700 1.3rem "Open Sans",Arial,sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0;
+    color: #fff;
+}
+.btn-price{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: var(--orange);
+    color: #fff;
+    padding: 45px 30px;
+    font: 700 1.25rem "Open Sans",Arial,sans-serif;
+    border-radius: 50%;
+    transition: .3s ease-in-out all;
+}
+.price{
+    position: relative;
+}
+/* Our Menu Sections */
+
+#blog .row{
+    margin: 0 0 100px 0;
+}
+#our-team{
+    position: relative;
+    overflow: hidden;
+    
+}
+#our-menu{
+    position: relative;
+    overflow: hidden;
+}
+.our-menu-main{
+    overflow: hidden;
+}
+.our-menu-main h1{
+    text-align: center;
+    font: 900 2em "Open Sans",Arial,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+.container-cards .img1 img{
+    width: 100%;
+}
+.img-content h3{    
+    font: 500 1.25em "Open Sans",Arial,sans-serif;
+    padding: 10px 10px 0 0;
+}
+.img-content p{
+    font: 400 .9em "Open Sans",Arial,sans-serif;
+    color: var(--gray);
+}
+.img-content h6{
+    color: var(--orange);
+    font: 400 1.75rem "Open Sans",Arial,sans-serif;
+}
+.menu-img img{
+    width: 100%;
+}
+.menu-img{
+    width: 30%;
+}
+.h5{
+    font: 500 1.25em "Open Sans",Arial,sans-serif;
+    padding: 10px 10px 10px 0;
+}
+.subtitle{
+    font: 400 .9em "Open Sans",Arial,sans-serif;
+    color: var(--gray);
+}
+#sub{
+    clip-path: polygon(100% 59%, 0% 100%, 100% 100%);
+}
+.ptext{
+    color: var(--orange);
+    font: 500 1.75em "Open Sans",Arial,sans-serif;
+    padding: 20px 0 0 0;
+}
+#testimonials h1{font: 900 2em "Open Sans",Arial,sans-serif;}
+#btn{
+    background: var(--orange);
+    width: 30%;
+    font: normal .9em "Open Sans",Arial,sans-serif;
+    letter-spacing: 3px;    
+}
+.card-image{
+    width: 100%;
+    background: url('../img/dishes_1.jpg.webp')center/cover;
+    height: 200px;
+}
+.card-image2{
+    width: 100%;
+    background: url('../img/dishes_2.jpg.webp')center/cover;
+    height: 200px;
+}
+.subscribe input{
+    width: 70%;
+}
+.subscribe-btn button{
+    background: var(--orange);
+    width: 70%;
+}
+@media only screen and (min-width: 768px){
+    #navbar {
+        background-color: rgba(33, 37, 41, 0) !important;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+    }
+    .order-1 img{
+        width: 100%;
+    }
+    #title h1{
+        font-size: 2.5em;
+    }
+    #title{
+        left: 30%;
+    }
+
+    .col-lg-2{
+        margin: auto;
+    }
+    #the-restaurant h1{
+        font-size: 2.5em;
+    }
+    #special-menu h1{
+        font-size: 2.5em;
+    }
+    .our-menu-main h1{
+        font-size: 2.5rem;
+    }
+    #special-menu img{
+        width: 70%;
+    }
+    .btn-price{
+        left: 24%;
+    }
+    .content-menu{
+        right: 30%;
+    }
+
+    .btn-price{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        background: var(--orange);
+        color: #fff;
+        padding: 35px 20px;
+        font: 700 1.25rem "Open Sans",Arial,sans-serif;
+        border-radius: 50%;
+        transition: .3s ease-in-out all;
+    }
+    .p-tag-menu{
+        font-size: 1.2em;
+        padding: 10px 0 0 0;
+    }
+    .content-menu p{
+        padding: 0 50px;
+    }
+    .card-image{
+        width: 100%;
+        background: url('../img/dishes_1.jpg.webp')center/cover;
+        height: 300px;
+    }
+    .card-image2{
+        width: 100%;
+        background: url('../img/dishes_2.jpg.webp')center/cover;
+        height: 300px;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .subscribe input{
+        width: 30%;
+        outline: none;
+        height: 40px;
+    }
+
+    .subscribe-btn button{
+        width: 100%;
+        height: 40px;
+        margin: 0 0 5px 10px;
+        cursor: pointer;
+    }
+    .contact-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+}
+@media only screen and (min-width: 460px){
+    .p-tag-menu p{
+        padding: 0 120px 0 0;
+    }
+    .p-tag-menu1 p{
+        padding: 0 0 0 0;
+    }
+}
+
