@@ -292,7 +292,6 @@ main{
 #testimonials h1{font: 900 2em "Open Sans",Arial,sans-serif;}
 #btn{
     background: var(--orange);
-    width: 30%;
     font: normal .9em "Open Sans",Arial,sans-serif;
     letter-spacing: 3px;    
 }
@@ -329,7 +328,9 @@ main{
     #title{
         left: 30%;
     }
-
+    #btn{
+        width:30%;
+    }
     .col-lg-2{
         margin: auto;
     }
