@@ -156,6 +156,15 @@ main{
 #restaurant img{
     width: 100%;
 }
+#special-menu p{
+    top: 70%;
+    font: 700 1.3rem "Open Sans",Arial,sans-serif;
+}
+#special-menu h6{
+    top: 70%;
+    left: 30%;
+    font: 700 1.3rem "Open Sans",Arial,sans-serif;
+}
 /* This is Special Menu Area */
 #special-menu .parent{
     overflow: hidden;
@@ -192,33 +201,11 @@ main{
     transition: .3s ease-in-out all;
     opacity: .8;
 }
-.content-menu{
-    position: absolute;
-    top: 60%;
-    right: 0;
-}
-.p-tag-menu{
-    position: relative;
-    text-align: center;
-    font: 700 1.3rem "Open Sans",Arial,sans-serif;
-    color: #000;
-    text-transform: uppercase;
-    color: #fff;
-}
 
-.p-tag-menu1{
-    position: relative;
-    text-align: center;
-    font: 700 1.3rem "Open Sans",Arial,sans-serif;
-    color: #000;
-    text-transform: uppercase;
-    padding: 0;
-    color: #fff;
-}
 .btn-price{
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 35%;
     background: var(--orange);
     color: #fff;
     padding: 45px 30px;
@@ -226,9 +213,7 @@ main{
     border-radius: 50%;
     transition: .3s ease-in-out all;
 }
-.price{
-    position: relative;
-}
+
 /* Our Menu Sections */
 
 #blog .row{
@@ -312,6 +297,40 @@ main{
     background: var(--orange);
     width: 70%;
 }
+.content-menu p{padding: 0 50px;}
+.card-image{
+        width: 100%;
+        background: url('../img/dishes_1.jpg.webp')center/cover;
+        height: 300px;
+}
+.card-image2{
+        width: 100%;
+        background: url('../img/dishes_2.jpg.webp')center/cover;
+        height: 300px;
+}
+.subscribe{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+}
+.subscribe input{
+        width: 30%;
+        outline: none;
+        height: 40px;
+}
+
+.subscribe-btn button{
+        width: 100%;
+        height: 40px;
+        margin: 0 0 5px 10px;
+        cursor: pointer;
+}
+.contact-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+}
+    
 @media only screen and (min-width: 768px){
     #navbar {
         background-color: rgba(33, 37, 41, 0) !important;
@@ -319,44 +338,30 @@ main{
         width: 100%;
         top: 50px;
     }
-    .order-1 img{
-        width: 100%;
+    .order-1 img{width: 100%;}
+    #title h1{font-size: 4em;}
+    #title{left: 30%;}
+    .col-lg-2{margin: auto;}
+    #the-restaurant h1{font-size: 2.5em;}
+    #special-menu h1{font-size: 2.5em;}
+    .our-menu-main h1{font-size: 2.5rem;}
+    #special-menu img{width: 70%;}
+    .content-menu{right: 30%;}
+    #btn{width: 30%;}
+    #special-menu p{
+        right: 25%;
+        top: 60%;
+        font: 700 1em "Open Sans",Arial,sans-serif;
     }
-    #title h1{
-        font-size: 2.5em;
+    #special-menu h6{
+        top: 60%;
+        left: 15%;
+        font: 700 1.3rem "Open Sans",Arial,sans-serif;
     }
-    #title{
-        left: 30%;
-    }
-    #btn{
-        width:30%;
-    }
-    .col-lg-2{
-        margin: auto;
-    }
-    #the-restaurant h1{
-        font-size: 2.5em;
-    }
-    #special-menu h1{
-        font-size: 2.5em;
-    }
-    .our-menu-main h1{
-        font-size: 2.5rem;
-    }
-    #special-menu img{
-        width: 70%;
-    }
-    .btn-price{
-        left: 24%;
-    }
-    .content-menu{
-        right: 30%;
-    }
-
     .btn-price{
         position: absolute;
         top: 30%;
-        left: 20%;
+        left: 25%;
         background: var(--orange);
         color: #fff;
         padding: 35px 20px;
@@ -364,52 +369,7 @@ main{
         border-radius: 50%;
         transition: .3s ease-in-out all;
     }
-    .p-tag-menu{
-        font-size: 1.2em;
-        padding: 10px 0 0 0;
-    }
-    .content-menu p{
-        padding: 0 50px;
-    }
-    .card-image{
-        width: 100%;
-        background: url('../img/dishes_1.jpg.webp')center/cover;
-        height: 300px;
-    }
-    .card-image2{
-        width: 100%;
-        background: url('../img/dishes_2.jpg.webp')center/cover;
-        height: 300px;
-    }
-    .subscribe{
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
-    .subscribe input{
-        width: 30%;
-        outline: none;
-        height: 40px;
-    }
+}
 
-    .subscribe-btn button{
-        width: 100%;
-        height: 40px;
-        margin: 0 0 5px 10px;
-        cursor: pointer;
-    }
-    .contact-container{
-        display: flex;
-        justify-content: space-around;
-        padding: 50px;
-    }
-}
-@media only screen and (min-width: 460px){
-    .p-tag-menu p{
-        padding: 0 120px 0 0;
-    }
-    .p-tag-menu1 p{
-        padding: 0 0 0 0;
-    }
-}
+
 
