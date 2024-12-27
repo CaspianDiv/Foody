@@ -291,7 +291,7 @@ main{
     height: 200px;
 }
 .subscribe input{
-    width: 70%;
+    min-width: 100%;
 }
 .subscribe-btn button{
     background: var(--orange);
@@ -338,16 +338,38 @@ main{
         width: 100%;
         top: 50px;
     }
-    .order-1 img{width: 100%;}
-    #title h1{font-size: 4em;}
-    #title{left: 30%;}
-    .col-lg-2{margin: auto;}
-    #the-restaurant h1{font-size: 2.5em;}
-    #special-menu h1{font-size: 2.5em;}
-    .our-menu-main h1{font-size: 2.5rem;}
-    #special-menu img{width: 70%;}
-    .content-menu{right: 30%;}
-    #btn{width: 30%;}
+    .order-1 img{
+        width: 100%;
+    }
+    #title h1{
+        font-size: 4em;
+    }
+    #title{
+        left: 30%;
+    }
+
+    .col-lg-2{
+        margin: auto;
+    }
+    #the-restaurant h1{
+        font-size: 2.5em;
+    }
+    #special-menu h1{
+        font-size: 2.5em;
+    }
+    .our-menu-main h1{
+        font-size: 2.5rem;
+    }
+    #special-menu img{
+        width: 70%;
+    }
+
+    .content-menu{
+        right: 30%;
+    }
+    #btn{
+        width: 30%;
+    }
     #special-menu p{
         right: 25%;
         top: 60%;
@@ -368,6 +390,9 @@ main{
         font: 700 1.25rem "Open Sans",Arial,sans-serif;
         border-radius: 50%;
         transition: .3s ease-in-out all;
+    }
+    .subscribe input{
+        min-width: 50%;
     }
 }
 
